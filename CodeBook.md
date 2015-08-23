@@ -1,4 +1,4 @@
-Study design
+#Study design
 
 The data for this study is comprised of the UCI HAR Data Set, which was
 downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -16,21 +16,21 @@ For further explanation and description on the exact processing steps taken,
 please refer to the Readme.md file and the comments in the run_analysis.R file.
 
 
-Code book
+#Code book
 
-[1] ActivityName
+**[1] ActivityName**
 DESCRIPTION: The original UCI HAR Database activity class names.
 TYPE: character
 VALUES: {WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING,
 LAYING}.
 
 
-[2] Subject
+**[2] Subject**
 DESCRIPTION: The original UCI HAR Database subject label.
 TYPE: integer
 VALUES: 1:30
 
-[3:69] 
+**[3:69] 
  "tBodyAcc_mean_X"           "tBodyAcc_mean_Y"          
  "tBodyAcc_mean_Z"           "tBodyAcc_std_X"           
  "tBodyAcc_std_Y"            "tBodyAcc_std_Z"           
@@ -63,7 +63,7 @@ VALUES: 1:30
  "fBodyAccMag_mean"          "fBodyAccMag_std"          
  "fBodyBodyAccJerkMag_mean"  "fBodyBodyAccJerkMag_std"  
  "fBodyBodyGyroMag_mean"     "fBodyBodyGyroMag_std"     
- "fBodyBodyGyroJerkMag_mean" "fBodyBodyGyroJerkMag_std"
+ "fBodyBodyGyroJerkMag_mean" "fBodyBodyGyroJerkMag_std"**
 DESCRIPTION: The mean for each ActivityName and Subject of the UCI HAR Dataset
 measurements on the mean and standard deviation. See Readme.md and comments in
 run_analysis.md.
